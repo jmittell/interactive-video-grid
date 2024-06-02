@@ -27,19 +27,19 @@ const config = {
   // =====================
   // | Global Variables |
   // =====================
-  finalVideoIndex: 1, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
+  finalVideoIndex: 16, // the index of the last video in your folder, enter 15 if video15.mp4 is the last video in your folder
 
   // =================
   // | Page Settings |
   // =================
-  pageTitle: "", // for the browser tabs and search results
+  pageTitle: "Interactive Grid of 'Singin' in the Rain'", // for the browser tabs and search results
   pageDescription: "",
 
   // ======================
   // | Project Information|
   // ======================
-  projectTitle: "",
-  projectSubtitle: "",
+  projectTitle: "Interactive Grid for 'Singin' in the Rain' by Jason Mittell",
+  projectSubtitle: "The 16 shortest shots in the film edited in ascending length, compiled into a grid - Tactile Mode is recommended for the phase effect.",
   projectInfo: "",
 
   // ==================
@@ -75,7 +75,7 @@ const config = {
     If it's set to true, the system will automatically grant permission 
     for including your project for display on the project page and its Github page.
   */
-  autoGrantPermission: false,
-  authorNameforDisplay: "",
-  authorContact: "",
+  autoGrantPermission: true,
+  authorNameforDisplay: "Jason Mittell",
+  authorContact: "jmittell@middlebury.edu",
 };
